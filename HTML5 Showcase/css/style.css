@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/**** My Styles ****/
+
+body {
+	position: relative;
+	font-family: 'Century Gothic', sans-serif;
+	background-color: rgb(12, 12, 12);
+	color: rgb(235, 235, 235);
+	/*overflow: hidden;*/
+}
+
+a {
+	color: #dfdfdf;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:active {
+	color: #ccc;
+}
+
+a:visited {
+	color: #dfdfdf;
+}
+
+header {
+	height: 80px;
+}
+
+footer {
+	height: 20px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.videoSection {
+	background-color: rgba(180, 180, 180, .1);
+	min-height: 300px;
+	max-height: 400px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.videos {
+	overflow: hidden;
+}
+
+.video-box video {
+	transition: border .4s;
+	border: 0px solid rgba(0,0,0,0);
+	min-height: 300px;
+	max-height: 400px;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+.video-box video:hover {
+	transition: border .4s;
+	border: 1px solid #fff;
+}
+
+.video-box video:active {
+	transition: border-top .2s;
+	border-top: 10px solid #fff;
+}
+
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.tooltip {
+	position: absolute;
+	background-color: rgba(0,0,0,.8);
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.dialog {
+	background-color: rgb(25, 25, 25);
+	border: 2px solid #fff;
+	border-radius: 0 0 10px 10px;
+	overflow: scroll;
+}
+
+.ui-dialog-titlebar {
+	background-color: #fff;
+}
+
+.ui-button {
+	background-color: #fd3333;
+	border: 0;
+}
+
+.dialog video {
+	margin: 0 auto;
+	width: 100%;
+	/*display: block;*/
+}
+
+.dialog h2 {
+	font-size: 24px;
+	margin: 10px;
+}
+.dialog p {
+	margin: 10px;
+}
+.dialog h3 {
+	margin: 10px;
+}
+.dialog ul {
+	margin: 10px;
+}
+
+.controls {
+	width: 120px;
+	margin: 10px auto;
+}
+.controls button {
+	width: 30px;
+	height: 30px;
+	border: 0;
+	padding: 0;
+	border-radius: 15px;
+	line-height: 12px;
+}
+
+.controls button:hover {
+	transition: background-color .2s;
+	background-color: rgb(150,150,150);
+}
+
+.controls button:active {
+	background-color: rgb(100,100,100);
+}
+
+.thumbs {
+	height: 200px;
+}
+
+.thumbs img {
+	margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
